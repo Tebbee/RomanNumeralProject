@@ -34,6 +34,10 @@
           <option name="url" value="https://github.com/bsu-cs222-fall2017-dll/fp-Visual-Interactive-Story.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/matheuss/google-translate-api.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
