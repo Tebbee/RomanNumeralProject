@@ -1,6 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="asdf" type="CLASS" />
+      <mapping pattern="Main" type="CLASS" />
+      <mapping pattern="Controller" type="JAVA" />
+      <mapping pattern=";j" type="JAVA" />
       <mapping pattern="Left" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
