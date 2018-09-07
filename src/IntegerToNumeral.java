@@ -8,9 +8,27 @@ public class IntegerToNumeral {
 
         String output = "";
 
+        if(input == 0){
+            output = "There is no value for zero";
+            return output;
+        }
+
+
         while(input > 0){
 
-            if(input >= 100) {
+            if(input >= 1000) {
+                output = output + "M";
+                input = input - 1000;
+            }else if(input >= 900) {
+                output = output + "DM";
+                input = input - 900;
+            }else if(input >= 500) {
+                output = output + "D";
+                input = input - 500;
+            }else if(input >= 400) {
+                output = output + "CD";
+                input = input - 400;
+            } else if(input >= 100) {
                 output = output + "C";
                 input = input - 100;
             }else if(input >= 90) {

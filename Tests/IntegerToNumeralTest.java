@@ -84,4 +84,36 @@ public class IntegerToNumeralTest{
 
     }
 
+    @Test
+    public void TestForFiveHundred(){
+        assertEquals("D",IntegerToNumeral.Convert(500));
+
+    }
+
+    @Test
+    public void TestForFourHundred(){
+        assertEquals("CD",IntegerToNumeral.Convert(400));
+
+    }
+
+    @Test
+    public void TestForOneThousand(){
+        assertEquals("M",IntegerToNumeral.Convert(1000));
+
+    }
+
+    @Test
+    public void TestForNineHundred(){
+        assertEquals("DM",IntegerToNumeral.Convert(900));
+
+    }
+
+    @Test
+    public void TestForFifteenThousandTwoHundredThirtySeven(){
+        assertEquals("MMMMMMMMMMMMMMMCCXXXVII",IntegerToNumeral.Convert(15237));
+
+    }
+
+
+
 }
