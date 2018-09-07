@@ -1,7 +1,13 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="944a66d9-bf35-422f-99fa-056bb3983859" name="tebbee">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="cdtebbe@bsu.edu" />
     <option name="HOST" value="https://github.com" />
     <option name="AUTH_TYPE" value="BASIC" />
+    <option name="CLONE_GIT_USING_SSH" value="true" />
   </component>
 </application>
