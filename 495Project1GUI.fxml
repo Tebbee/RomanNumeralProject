@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="ConversionButton" layoutX="371.0" layoutY="187.0" mnemonicParsing="false" onAction="#NumberConversion" text="Convert" />
+      <Label layoutX="66.0" layoutY="105.0" text="Input:" />
+      <Label layoutX="61.0" layoutY="262.0" text="Output:" />
+      <TextField fx:id="InputTextField" layoutX="153.0" layoutY="100.0" promptText="Input: (III,5,87)" />
+      <TextField fx:id="OutputTextField" disable="true" editable="false" layoutX="153.0" layoutY="257.0" promptText="Output" />
+      <Label layoutX="22.0" layoutY="29.0" text="Roman Numeral &lt;-&gt; Number Converter">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
