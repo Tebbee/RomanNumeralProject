@@ -29,7 +29,7 @@ public class Controller {
             OutputTextField.setText("Please insert a REAL number/Roman Numeral");
             return;
         }
-        OutputTextField.setText(IntegerToNumeral.ConvertNumber(Integer.parseInt(input)));
+        OutputTextField.setText(IntegerToNumeral.Convert(Integer.parseInt(input)));
 
 
     }
