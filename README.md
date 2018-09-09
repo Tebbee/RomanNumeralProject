@@ -11,12 +11,12 @@ Prerequisite to run:
 To run the project you must have Javafx and its plugins fully functioning.
 
 Tests:
-There are too main type of tests for the converter.
+There are two main types of tests for the converter.
 These tests are divided into the int to numeral tests and the numeral to int tests.
 Other than these tests there are several extremes being tested for which include tests for 0, empty strings, and negative numbers.
 
 The reason behind these tests is very straight forward for the most part.
-To starts with we tested for the extremes such as large numbers, small numbers, 0, negatives, and empty strings.
+To start, we tested for the extremes such as large numbers, small numbers, 0, negatives, and empty strings.
 following this we created the tests for more common numbers that a user would input into the system.
 
 Contributors & Authors:
