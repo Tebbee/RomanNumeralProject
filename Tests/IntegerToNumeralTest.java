@@ -85,14 +85,14 @@ public class IntegerToNumeralTest{
     }
 
     @Test
-    public void TestForFiveHundred(){
-        assertEquals("D",IntegerToNumeral.Convert(500));
+    public void TestForFourHundred(){
+        assertEquals("CD",IntegerToNumeral.Convert(400));
 
     }
 
     @Test
-    public void TestForFourHundred(){
-        assertEquals("CD",IntegerToNumeral.Convert(400));
+    public void TestForFiveHundred(){
+        assertEquals("D",IntegerToNumeral.Convert(500));
 
     }
 

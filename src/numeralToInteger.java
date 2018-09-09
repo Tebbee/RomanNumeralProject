@@ -1,6 +1,6 @@
 public class numeralToInteger {
-    public final int[] letterValues = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
-    public final String[] numeralList = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+    public final int[] letterValues = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    public final String[] numeralList = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
     public int romanToInteger(String roman){
         String error = "You must have entered something wrong, please enter a correct roman numeral";
