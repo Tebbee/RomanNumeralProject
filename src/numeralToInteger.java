@@ -15,6 +15,8 @@ public class numeralToInteger {
                 return 5;
             case 'I':
                 return 1;
+            case ' ':
+                return 0;
             default:
                 System.out.println("Please Enter a real Roman Numeral");
                 return -1;

@@ -13,6 +13,10 @@ public class IntegerToNumeral {
             return output;
         }
 
+        if(input < 0){
+            output = "There are no negative numbers";
+            return output;
+        }
 
         while(input > 0){
 
@@ -69,8 +73,6 @@ public class IntegerToNumeral {
                 input = input - 1;
             }
         }
-
-
 
         return output;
     }

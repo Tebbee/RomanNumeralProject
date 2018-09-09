@@ -12,7 +12,7 @@ public class Controller {
 
     public void Convert() {
         String input = InputTextField.getText();
-        if (input.equals("")){
+        if (input.equals("") || input.equals(" ")){
             OutputTextField.setText("Please insert a value");
         }
         //Tests for Roman Numerals
