@@ -1,19 +1,38 @@
 public class numeralToInteger {
-//    public final int[] letterValues = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-//    public final String[] numeralList = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-
-    public static int numeralToInteger(String roman){
-
-        final int[] letterValues = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-        final String[] numeralList = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-
-        String error = "You must have entered something wrong, please enter a correct roman numeral";
-        for (int i = 0; i<numeralList.length; i++){
-            if(roman.startsWith(numeralList[i]))
-                return letterValues[i] + numeralToInteger(roman.replaceFirst(numeralList[i], ""));
+    private static int convertNumerals(char letter){
+        switch (letter){
+            case 'M':
+                return 1000;
+            case 'D':
+                return 500;
+            case 'C':
+                return 100;
+            case 'L':
+                return 50;
+            case 'X':
+                return 10;
+            case 'V':
+                return 5;
+            case 'I':
+                return 1;
+            default:
+                System.out.println("Please Enter a real Roman Numeral");
+                return -1;
         }
-        System.out.print(error);
-        return 0;
+    }
+    public static int numeralToInteger(String number){
+        int converted = 0;
+        String upperCaseNumber = number.toUpperCase();
+        for(int i = 0; i< upperCaseNumber.length()-1; i++){
+            if(convertNumerals(upperCaseNumber.charAt(i))< convertNumerals(upperCaseNumber.charAt(i+1))){
+                converted -= convertNumerals(upperCaseNumber.charAt(i));
+            }else{
+                converted += convertNumerals(upperCaseNumber.charAt(i));
+            }
+        }
+        converted += convertNumerals(upperCaseNumber.charAt(upperCaseNumber.length()-1));
+        return converted;
+
     }
     
 }
