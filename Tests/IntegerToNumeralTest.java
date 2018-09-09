@@ -8,109 +8,109 @@ public class IntegerToNumeralTest{
 
     @Test
     public void TestForOne(){
-        assertEquals("I",IntegerToNumeral.Convert(1));
+        assertEquals("I",IntegerToNumeral.ConvertNumber(1));
 
     }
 
     @Test
     public void TestForTwo(){
-        assertEquals("II",IntegerToNumeral.Convert(2));
+        assertEquals("II",IntegerToNumeral.ConvertNumber(2));
 
     }
 
     @Test
     public void TestForFive(){
-        assertEquals("V",IntegerToNumeral.Convert(5));
+        assertEquals("V",IntegerToNumeral.ConvertNumber(5));
 
     }
 
     @Test
     public void TestForFour(){
-        assertEquals("IV",IntegerToNumeral.Convert(4));
+        assertEquals("IV",IntegerToNumeral.ConvertNumber(4));
 
     }
 
     @Test
     public void TestForNine(){
-        assertEquals("IX",IntegerToNumeral.Convert(9));
+        assertEquals("IX",IntegerToNumeral.ConvertNumber(9));
 
     }
 
     @Test
     public void TestForTen(){
-        assertEquals("X",IntegerToNumeral.Convert(10));
+        assertEquals("X",IntegerToNumeral.ConvertNumber(10));
 
     }
 
     @Test
     public void TestForFourteen(){
-        assertEquals("XIV",IntegerToNumeral.Convert(14));
+        assertEquals("XIV",IntegerToNumeral.ConvertNumber(14));
 
     }
 
     @Test
     public void TestForFifteen(){
-        assertEquals("XV",IntegerToNumeral.Convert(15));
+        assertEquals("XV",IntegerToNumeral.ConvertNumber(15));
 
     }
 
     @Test
     public void TestForThirtyEight(){
-        assertEquals("XXXVIII",IntegerToNumeral.Convert(38));
+        assertEquals("XXXVIII",IntegerToNumeral.ConvertNumber(38));
 
     }
 
     @Test
     public void TestForFourty(){
-        assertEquals("XL",IntegerToNumeral.Convert(40));
+        assertEquals("XL",IntegerToNumeral.ConvertNumber(40));
 
     }
 
     @Test
     public void TestForFifty(){
-        assertEquals("L",IntegerToNumeral.Convert(50));
+        assertEquals("L",IntegerToNumeral.ConvertNumber(50));
 
     }
 
     @Test
     public void TestForNinety(){
-        assertEquals("XC",IntegerToNumeral.Convert(90));
+        assertEquals("XC",IntegerToNumeral.ConvertNumber(90));
 
     }
 
     @Test
     public void TestForOneHundred(){
-        assertEquals("C",IntegerToNumeral.Convert(100));
+        assertEquals("C",IntegerToNumeral.ConvertNumber(100));
 
     }
 
     @Test
     public void TestForFiveHundred(){
-        assertEquals("D",IntegerToNumeral.Convert(500));
+        assertEquals("D",IntegerToNumeral.ConvertNumber(500));
 
     }
 
     @Test
     public void TestForFourHundred(){
-        assertEquals("CD",IntegerToNumeral.Convert(400));
+        assertEquals("CD",IntegerToNumeral.ConvertNumber(400));
 
     }
 
     @Test
     public void TestForOneThousand(){
-        assertEquals("M",IntegerToNumeral.Convert(1000));
+        assertEquals("M",IntegerToNumeral.ConvertNumber(1000));
 
     }
 
     @Test
     public void TestForNineHundred(){
-        assertEquals("DM",IntegerToNumeral.Convert(900));
+        assertEquals("DM",IntegerToNumeral.ConvertNumber(900));
 
     }
 
     @Test
     public void TestForFifteenThousandTwoHundredThirtySeven(){
-        assertEquals("MMMMMMMMMMMMMMMCCXXXVII",IntegerToNumeral.Convert(15237));
+        assertEquals("MMMMMMMMMMMMMMMCCXXXVII",IntegerToNumeral.ConvertNumber(15237));
 
     }
 
