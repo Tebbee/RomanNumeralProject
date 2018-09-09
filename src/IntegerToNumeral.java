@@ -4,7 +4,7 @@ public class IntegerToNumeral {
 //    Convert accepts an integer as input and then
 //    translates to numeral
 
-    public static String Convert(int input){
+    public static String ConvertNumber(int input){
 
         String output = "";
 
